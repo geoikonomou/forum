@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/arnald/forum/internal/domain/session"
+	"github.com/geoikonomou/forum/internal/domain/session"
 )
 
 type Middleware struct {

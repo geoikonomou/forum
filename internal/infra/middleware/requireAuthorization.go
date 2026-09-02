@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/arnald/forum/internal/pkg/helpers"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
 )
 
 // type requireAuthMiddleware struct {

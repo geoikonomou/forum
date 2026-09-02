@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/arnald/forum/cmd/client/domain"
-	"github.com/arnald/forum/cmd/client/helpers"
+	"github.com/geoikonomou/forum/cmd/client/domain"
+	"github.com/geoikonomou/forum/cmd/client/helpers"
 )
 
 type contextKey string

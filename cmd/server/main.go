@@ -4,11 +4,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/arnald/forum/internal/app"
-	"github.com/arnald/forum/internal/config"
-	"github.com/arnald/forum/internal/infra"
-	"github.com/arnald/forum/internal/infra/logger"
-	"github.com/arnald/forum/internal/infra/storage/sqlite"
+	"github.com/geoikonomou/forum/internal/app"
+	"github.com/geoikonomou/forum/internal/config"
+	"github.com/geoikonomou/forum/internal/infra"
+	"github.com/geoikonomou/forum/internal/infra/logger"
+	"github.com/geoikonomou/forum/internal/infra/storage/sqlite"
 )
 
 func main() {

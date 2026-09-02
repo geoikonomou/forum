@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/arnald/forum/internal/domain/oauth"
-	"github.com/arnald/forum/internal/domain/user"
-	oauthrepo "github.com/arnald/forum/internal/infra/storage/sqlite/oauth"
-	oauthpkg "github.com/arnald/forum/internal/pkg/oAuth"
-	"github.com/arnald/forum/internal/pkg/uuid"
+	"github.com/geoikonomou/forum/internal/domain/oauth"
+	"github.com/geoikonomou/forum/internal/domain/user"
+	oauthrepo "github.com/geoikonomou/forum/internal/infra/storage/sqlite/oauth"
+	oauthpkg "github.com/geoikonomou/forum/internal/pkg/oAuth"
+	"github.com/geoikonomou/forum/internal/pkg/uuid"
 )
 
 type OAuthService struct {

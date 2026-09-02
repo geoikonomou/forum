@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arnald/forum/internal/domain/comment"
-	"github.com/arnald/forum/internal/domain/topic"
+	"github.com/geoikonomou/forum/internal/domain/comment"
+	"github.com/geoikonomou/forum/internal/domain/topic"
 )
 
 type Repo struct {

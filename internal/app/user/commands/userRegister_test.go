@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/arnald/forum/internal/domain/user"
-	"github.com/arnald/forum/internal/pkg/helpers"
-	testhelpers "github.com/arnald/forum/internal/pkg/testing"
+	"github.com/geoikonomou/forum/internal/domain/user"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
+	testhelpers "github.com/geoikonomou/forum/internal/pkg/testing"
 )
 
 func TestUserRegisterHandler_Handle(t *testing.T) {

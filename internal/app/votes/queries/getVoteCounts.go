@@ -3,7 +3,7 @@ package votequeries
 import (
 	"context"
 
-	"github.com/arnald/forum/internal/domain/vote"
+	"github.com/geoikonomou/forum/internal/domain/vote"
 )
 
 type GetCountsRequest struct {

@@ -13,8 +13,8 @@ import (
 	// Need to import sqlite driver.
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/arnald/forum/internal/config"
-	"github.com/arnald/forum/internal/pkg/path"
+	"github.com/geoikonomou/forum/internal/config"
+	"github.com/geoikonomou/forum/internal/pkg/path"
 )
 
 const (

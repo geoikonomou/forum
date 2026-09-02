@@ -4,13 +4,13 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/arnald/forum/internal/app"
-	commentCommands "github.com/arnald/forum/internal/app/comments/commands"
-	"github.com/arnald/forum/internal/config"
-	"github.com/arnald/forum/internal/infra/logger"
-	"github.com/arnald/forum/internal/infra/middleware"
-	"github.com/arnald/forum/internal/pkg/helpers"
-	"github.com/arnald/forum/internal/pkg/validator"
+	"github.com/geoikonomou/forum/internal/app"
+	commentCommands "github.com/geoikonomou/forum/internal/app/comments/commands"
+	"github.com/geoikonomou/forum/internal/config"
+	"github.com/geoikonomou/forum/internal/infra/logger"
+	"github.com/geoikonomou/forum/internal/infra/middleware"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
+	"github.com/geoikonomou/forum/internal/pkg/validator"
 )
 
 type RequestModel struct {

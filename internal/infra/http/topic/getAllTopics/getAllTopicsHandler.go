@@ -5,15 +5,15 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/arnald/forum/internal/app"
-	topicQueries "github.com/arnald/forum/internal/app/topics/queries"
-	"github.com/arnald/forum/internal/config"
-	"github.com/arnald/forum/internal/domain/category"
-	"github.com/arnald/forum/internal/domain/topic"
-	"github.com/arnald/forum/internal/infra/logger"
-	"github.com/arnald/forum/internal/infra/middleware"
-	"github.com/arnald/forum/internal/pkg/helpers"
-	"github.com/arnald/forum/internal/pkg/validator"
+	"github.com/geoikonomou/forum/internal/app"
+	topicQueries "github.com/geoikonomou/forum/internal/app/topics/queries"
+	"github.com/geoikonomou/forum/internal/config"
+	"github.com/geoikonomou/forum/internal/domain/category"
+	"github.com/geoikonomou/forum/internal/domain/topic"
+	"github.com/geoikonomou/forum/internal/infra/logger"
+	"github.com/geoikonomou/forum/internal/infra/middleware"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
+	"github.com/geoikonomou/forum/internal/pkg/validator"
 )
 
 type ResponseModel struct {

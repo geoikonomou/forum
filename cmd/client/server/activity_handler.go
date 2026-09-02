@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"text/template"
 
-	"github.com/arnald/forum/cmd/client/domain"
-	"github.com/arnald/forum/cmd/client/helpers"
-	"github.com/arnald/forum/cmd/client/helpers/templates"
-	"github.com/arnald/forum/cmd/client/middleware"
+	"github.com/geoikonomou/forum/cmd/client/domain"
+	"github.com/geoikonomou/forum/cmd/client/helpers"
+	"github.com/geoikonomou/forum/cmd/client/helpers/templates"
+	"github.com/geoikonomou/forum/cmd/client/middleware"
 )
 
 // ActivityPage handles requests to the activity page.

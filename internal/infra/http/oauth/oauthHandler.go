@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"net/url"
 
-	oauthservice "github.com/arnald/forum/internal/app/oauth"
-	"github.com/arnald/forum/internal/config"
-	"github.com/arnald/forum/internal/domain/session"
-	"github.com/arnald/forum/internal/infra/logger"
-	"github.com/arnald/forum/internal/pkg/helpers"
-	oauthpkg "github.com/arnald/forum/internal/pkg/oAuth"
+	oauthservice "github.com/geoikonomou/forum/internal/app/oauth"
+	"github.com/geoikonomou/forum/internal/config"
+	"github.com/geoikonomou/forum/internal/domain/session"
+	"github.com/geoikonomou/forum/internal/infra/logger"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
+	oauthpkg "github.com/geoikonomou/forum/internal/pkg/oAuth"
 )
 
 type OAuthHandler struct {

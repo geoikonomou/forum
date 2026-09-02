@@ -3,8 +3,8 @@ package topiccommands
 import (
 	"context"
 
-	"github.com/arnald/forum/internal/domain/topic"
-	"github.com/arnald/forum/internal/domain/user"
+	"github.com/geoikonomou/forum/internal/domain/topic"
+	"github.com/geoikonomou/forum/internal/domain/user"
 )
 
 type UpdateTopicRequest struct {

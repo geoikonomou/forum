@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/arnald/forum/internal/pkg/path"
+	"github.com/geoikonomou/forum/internal/pkg/path"
 )
 
 // renderTemplate renders a template with the given data.

@@ -3,10 +3,10 @@ package logout
 import (
 	"net/http"
 
-	"github.com/arnald/forum/internal/domain/session"
-	"github.com/arnald/forum/internal/infra/logger"
-	"github.com/arnald/forum/internal/infra/middleware"
-	"github.com/arnald/forum/internal/pkg/helpers"
+	"github.com/geoikonomou/forum/internal/domain/session"
+	"github.com/geoikonomou/forum/internal/infra/logger"
+	"github.com/geoikonomou/forum/internal/infra/middleware"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
 )
 
 type Handler struct {

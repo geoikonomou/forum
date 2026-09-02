@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"sync"
 
-	"github.com/arnald/forum/internal/domain/notification"
+	"github.com/geoikonomou/forum/internal/domain/notification"
 )
 
 const ChannelCapacity int = 10

@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/uuid"
 
-	u "github.com/arnald/forum/internal/pkg/uuid"
+	u "github.com/geoikonomou/forum/internal/pkg/uuid"
 )
 
 func TestNewUUIDSuccess(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/arnald/forum/internal/domain/topic"
-	"github.com/arnald/forum/internal/domain/user"
-	testhelpers "github.com/arnald/forum/internal/pkg/testing"
+	"github.com/geoikonomou/forum/internal/domain/topic"
+	"github.com/geoikonomou/forum/internal/domain/user"
+	testhelpers "github.com/geoikonomou/forum/internal/pkg/testing"
 )
 
 func TestUpdateTopicHandler_Handle(t *testing.T) {

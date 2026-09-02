@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/arnald/forum/cmd/client/helpers"
-	"github.com/arnald/forum/cmd/client/helpers/templates"
-	"github.com/arnald/forum/cmd/client/middleware"
+	"github.com/geoikonomou/forum/cmd/client/helpers"
+	"github.com/geoikonomou/forum/cmd/client/helpers/templates"
+	"github.com/geoikonomou/forum/cmd/client/middleware"
 )
 
 type createCommentRequest struct {

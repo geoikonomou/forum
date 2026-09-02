@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arnald/forum/internal/domain/category"
-	"github.com/arnald/forum/internal/domain/topic"
+	"github.com/geoikonomou/forum/internal/domain/category"
+	"github.com/geoikonomou/forum/internal/domain/topic"
 )
 
 type Repo struct {

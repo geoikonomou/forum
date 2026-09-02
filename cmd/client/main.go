@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/arnald/forum/cmd/client/config"
-	"github.com/arnald/forum/cmd/client/server"
+	"github.com/geoikonomou/forum/cmd/client/config"
+	"github.com/geoikonomou/forum/cmd/client/server"
 )
 
 func main() {

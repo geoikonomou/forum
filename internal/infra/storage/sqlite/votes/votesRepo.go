@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/arnald/forum/internal/domain/vote"
+	"github.com/geoikonomou/forum/internal/domain/vote"
 )
 
 type Repo struct {

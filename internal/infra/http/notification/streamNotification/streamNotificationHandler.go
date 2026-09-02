@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/arnald/forum/internal/infra/middleware"
-	"github.com/arnald/forum/internal/infra/storage/notifications"
+	"github.com/geoikonomou/forum/internal/infra/middleware"
+	"github.com/geoikonomou/forum/internal/infra/storage/notifications"
 )
 
 const tickerTime = 10

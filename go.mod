@@ -1,4 +1,4 @@
-module github.com/arnald/forum
+module github.com/geoikonomou/forum
 
 go 1.24.4
 

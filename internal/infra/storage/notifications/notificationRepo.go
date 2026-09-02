@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/arnald/forum/internal/domain/notification"
+	"github.com/geoikonomou/forum/internal/domain/notification"
 )
 
 type Repo struct {

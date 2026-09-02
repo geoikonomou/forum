@@ -1,10 +1,10 @@
 package userlogin
 
 import (
-	"github.com/arnald/forum/internal/app"
-	"github.com/arnald/forum/internal/config"
-	"github.com/arnald/forum/internal/domain/session"
-	"github.com/arnald/forum/internal/infra/logger"
+	"github.com/geoikonomou/forum/internal/app"
+	"github.com/geoikonomou/forum/internal/config"
+	"github.com/geoikonomou/forum/internal/domain/session"
+	"github.com/geoikonomou/forum/internal/infra/logger"
 )
 
 type Handler struct {

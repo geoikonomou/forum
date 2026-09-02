@@ -9,10 +9,10 @@ import (
 	"net/http"
 	"net/http/cookiejar"
 
-	"github.com/arnald/forum/cmd/client/config"
-	"github.com/arnald/forum/cmd/client/helpers"
-	"github.com/arnald/forum/cmd/client/middleware"
-	"github.com/arnald/forum/internal/pkg/path"
+	"github.com/geoikonomou/forum/cmd/client/config"
+	"github.com/geoikonomou/forum/cmd/client/helpers"
+	"github.com/geoikonomou/forum/cmd/client/middleware"
+	"github.com/geoikonomou/forum/internal/pkg/path"
 )
 
 // ClientServer represents the frontend client server.

@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	oauth "github.com/arnald/forum/internal/pkg/oAuth"
-	"github.com/arnald/forum/internal/pkg/oAuth/httpclient"
+	oauth "github.com/geoikonomou/forum/internal/pkg/oAuth"
+	"github.com/geoikonomou/forum/internal/pkg/oAuth/httpclient"
 )
 
 const (

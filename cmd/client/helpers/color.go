@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/arnald/forum/cmd/client/domain"
+	"github.com/geoikonomou/forum/cmd/client/domain"
 )
 
 const (

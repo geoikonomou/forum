@@ -3,8 +3,8 @@ package markallasread
 import (
 	"net/http"
 
-	"github.com/arnald/forum/internal/infra/middleware"
-	"github.com/arnald/forum/internal/infra/storage/notifications"
+	"github.com/geoikonomou/forum/internal/infra/middleware"
+	"github.com/geoikonomou/forum/internal/infra/storage/notifications"
 )
 
 type Handler struct {

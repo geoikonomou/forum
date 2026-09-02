@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/arnald/forum/internal/domain/session"
+	"github.com/geoikonomou/forum/internal/domain/session"
 )
 
 type authorization struct {

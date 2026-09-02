@@ -3,7 +3,7 @@ package commentqueries
 import (
 	"context"
 
-	"github.com/arnald/forum/internal/domain/comment"
+	"github.com/geoikonomou/forum/internal/domain/comment"
 )
 
 type GetCommentsByTopicRequest struct {

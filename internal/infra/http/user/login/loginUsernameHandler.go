@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
-	userQueries "github.com/arnald/forum/internal/app/user/queries"
-	"github.com/arnald/forum/internal/infra/logger"
-	"github.com/arnald/forum/internal/pkg/helpers"
-	"github.com/arnald/forum/internal/pkg/validator"
+	userQueries "github.com/geoikonomou/forum/internal/app/user/queries"
+	"github.com/geoikonomou/forum/internal/infra/logger"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
+	"github.com/geoikonomou/forum/internal/pkg/validator"
 )
 
 type LoginUserUsernameRequestModel struct {

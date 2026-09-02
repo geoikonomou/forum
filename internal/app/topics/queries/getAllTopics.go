@@ -3,8 +3,8 @@ package topicqueries
 import (
 	"context"
 
-	"github.com/arnald/forum/internal/domain/category"
-	"github.com/arnald/forum/internal/domain/topic"
+	"github.com/geoikonomou/forum/internal/domain/category"
+	"github.com/geoikonomou/forum/internal/domain/topic"
 )
 
 type GetAllTopicsRequest struct {

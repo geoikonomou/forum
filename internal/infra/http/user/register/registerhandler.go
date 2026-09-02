@@ -5,13 +5,13 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/arnald/forum/internal/app"
-	usercommands "github.com/arnald/forum/internal/app/user/commands"
-	"github.com/arnald/forum/internal/config"
-	"github.com/arnald/forum/internal/domain/session"
-	"github.com/arnald/forum/internal/infra/logger"
-	"github.com/arnald/forum/internal/pkg/helpers"
-	"github.com/arnald/forum/internal/pkg/validator"
+	"github.com/geoikonomou/forum/internal/app"
+	usercommands "github.com/geoikonomou/forum/internal/app/user/commands"
+	"github.com/geoikonomou/forum/internal/config"
+	"github.com/geoikonomou/forum/internal/domain/session"
+	"github.com/geoikonomou/forum/internal/infra/logger"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
+	"github.com/geoikonomou/forum/internal/pkg/validator"
 )
 
 type RegisterUserReguestModel struct {

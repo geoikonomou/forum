@@ -1,6 +1,6 @@
 package topic
 
-import "github.com/arnald/forum/internal/domain/comment"
+import "github.com/geoikonomou/forum/internal/domain/comment"
 
 type Topic struct {
 	UserVote       *int

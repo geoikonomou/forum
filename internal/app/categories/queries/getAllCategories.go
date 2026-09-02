@@ -3,7 +3,7 @@ package categoryqueries
 import (
 	"context"
 
-	"github.com/arnald/forum/internal/domain/category"
+	"github.com/geoikonomou/forum/internal/domain/category"
 )
 
 type GetAllCategoriesRequest struct {

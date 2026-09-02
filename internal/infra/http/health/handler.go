@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/arnald/forum/internal/app/health/queries"
-	"github.com/arnald/forum/internal/domain/notification"
-	"github.com/arnald/forum/internal/infra/logger"
-	"github.com/arnald/forum/internal/infra/storage/notifications"
-	"github.com/arnald/forum/internal/pkg/helpers"
+	"github.com/geoikonomou/forum/internal/app/health/queries"
+	"github.com/geoikonomou/forum/internal/domain/notification"
+	"github.com/geoikonomou/forum/internal/infra/logger"
+	"github.com/geoikonomou/forum/internal/infra/storage/notifications"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
 )
 
 type Handler struct {

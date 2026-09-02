@@ -6,12 +6,12 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/arnald/forum/internal/app"
-	votecommands "github.com/arnald/forum/internal/app/votes/commands"
-	"github.com/arnald/forum/internal/config"
-	"github.com/arnald/forum/internal/infra/logger"
-	"github.com/arnald/forum/internal/infra/middleware"
-	"github.com/arnald/forum/internal/pkg/helpers"
+	"github.com/geoikonomou/forum/internal/app"
+	votecommands "github.com/geoikonomou/forum/internal/app/votes/commands"
+	"github.com/geoikonomou/forum/internal/config"
+	"github.com/geoikonomou/forum/internal/infra/logger"
+	"github.com/geoikonomou/forum/internal/infra/middleware"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
 )
 
 type request struct {

@@ -6,16 +6,16 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/arnald/forum/internal/app"
-	commentCommands "github.com/arnald/forum/internal/app/comments/commands"
-	topicqueries "github.com/arnald/forum/internal/app/topics/queries"
-	"github.com/arnald/forum/internal/config"
-	"github.com/arnald/forum/internal/domain/notification"
-	"github.com/arnald/forum/internal/infra/logger"
-	"github.com/arnald/forum/internal/infra/middleware"
-	"github.com/arnald/forum/internal/infra/storage/notifications"
-	"github.com/arnald/forum/internal/pkg/helpers"
-	"github.com/arnald/forum/internal/pkg/validator"
+	"github.com/geoikonomou/forum/internal/app"
+	commentCommands "github.com/geoikonomou/forum/internal/app/comments/commands"
+	topicqueries "github.com/geoikonomou/forum/internal/app/topics/queries"
+	"github.com/geoikonomou/forum/internal/config"
+	"github.com/geoikonomou/forum/internal/domain/notification"
+	"github.com/geoikonomou/forum/internal/infra/logger"
+	"github.com/geoikonomou/forum/internal/infra/middleware"
+	"github.com/geoikonomou/forum/internal/infra/storage/notifications"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
+	"github.com/geoikonomou/forum/internal/pkg/validator"
 )
 
 type RequestModel struct {

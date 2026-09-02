@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/arnald/forum/internal/domain/user"
-	"github.com/arnald/forum/internal/pkg/bcrypt"
-	"github.com/arnald/forum/internal/pkg/helpers"
-	"github.com/arnald/forum/internal/pkg/uuid"
+	"github.com/geoikonomou/forum/internal/domain/user"
+	"github.com/geoikonomou/forum/internal/pkg/bcrypt"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
+	"github.com/geoikonomou/forum/internal/pkg/uuid"
 )
 
 type UserRegisterRequest struct {

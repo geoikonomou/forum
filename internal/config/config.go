@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arnald/forum/internal/pkg/helpers"
-	"github.com/arnald/forum/internal/pkg/path"
+	"github.com/geoikonomou/forum/internal/pkg/helpers"
+	"github.com/geoikonomou/forum/internal/pkg/path"
 )
 
 const (

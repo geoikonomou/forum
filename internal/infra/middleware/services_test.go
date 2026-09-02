@@ -3,7 +3,7 @@ package middleware
 import (
 	"testing"
 
-	testhelpers "github.com/arnald/forum/internal/pkg/testing"
+	testhelpers "github.com/geoikonomou/forum/internal/pkg/testing"
 )
 
 func TestServices(t *testing.T) {

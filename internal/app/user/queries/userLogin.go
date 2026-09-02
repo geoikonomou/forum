@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/arnald/forum/internal/domain/user"
-	"github.com/arnald/forum/internal/pkg/bcrypt"
+	"github.com/geoikonomou/forum/internal/domain/user"
+	"github.com/geoikonomou/forum/internal/pkg/bcrypt"
 )
 
 type UserLoginRequest struct {

@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/arnald/forum/internal/config"
-	"github.com/arnald/forum/internal/domain/session"
-	"github.com/arnald/forum/internal/domain/user"
-	"github.com/arnald/forum/internal/pkg/uuid"
+	"github.com/geoikonomou/forum/internal/config"
+	"github.com/geoikonomou/forum/internal/domain/session"
+	"github.com/geoikonomou/forum/internal/domain/user"
+	"github.com/geoikonomou/forum/internal/pkg/uuid"
 )
 
 const (
