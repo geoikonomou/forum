@@ -33,6 +33,12 @@ go.work.sum
 
 # Sqlite Database
 *.db
+*.db-wal
+*.db-shm
+
+# Local runtime data (database, uploads) generated during dev/run
+db/data/
+frontend/static/images/uploads/
 
 # Certificate files
 *.pem
